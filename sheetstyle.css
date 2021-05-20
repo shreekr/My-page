@@ -1,0 +1,88 @@
+.header{padding: 20px;
+background-color: rgb(56, 18, 18);
+text-align: center;
+color:white; }
+
+.header h1 {font-size: 60px;}
+
+.navbar{
+     overflow:hidden;
+     font-size: 30px;
+     background-color:rgb(56, 18, 18) ;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a{float: left; 
+    display: block; 
+    color: white; 
+   text-align: center; 
+    padding: 14px 20px; /
+     }
+    .navbar a:hover{
+        color:#DCDCDC;
+    }
+    .row{display: flex;
+         flex-wrap:wrap;}
+         
+         .side {flex:auto;
+            padding: 10px ;
+           
+            background-color: grey;}
+    
+            .main{
+                height: 225vh;
+                display:flex;
+                
+        } .main{background-image: url(pleatf.jpg) ;}
+
+            .footer{text-align: center
+            ;
+        color:bisque;
+        background-color: black;
+      font-size: 25px;}
+      *{margin: 0;
+    padding: 0;}
+
+    .h{align-content: center;
+      display: flex;
+    float: right;}
+
+    .box{align-content: center;
+         height: 470px;
+        width:350px;
+    border:rgb(56, 18, 18) solid 5px;
+    margin: 100px;
+    margin-left:570px;
+    padding: 20px;
+    background-color:rgb(56, 18, 18) ;
+    color: white;
+
+  border-radius: 30px;}
+
+  .box5{position:absolute; height:35px;
+    align-content: center;
+width: 100px;
+top: 950px;
+left: 50px;
+background-color:rgb(56, 18, 18);
+align-content: center;
+padding: 20px;
+
+border-radius: 20px;
+color: white;
+}
+
+.box5:hover h1{ color:grey ;}
+
+
+.photos{position: absolute; align-content: center;
+ top: 1050px; left: 175px;
+border:rgb(56, 18, 18) solid 15px;
+border-radius: 30px;}
+
+.photu{position:absolute; align-content: center;
+top:1050px; right:175px;border:rgb(56, 18, 18) solid 15px;
+border-radius: 30px;
+}
+
+

@@ -1,0 +1,96 @@
+.header{padding: 20px;
+    background-color: rgb(56, 18, 18);
+    text-align: center;
+    color:white; }
+    
+    .header h1 {font-size: 60px;}
+    
+    .navbar{
+         overflow:hidden;
+         font-size: 30px;
+         background-color:rgb(56, 18, 18);
+         font-family: 'Times New Roman', Times, serif;
+          ;
+    }
+    .navbar a{float: left; 
+        display: block; 
+        color: white; 
+       text-align: center; 
+        padding: 14px 20px;
+         
+         }
+    
+        .navbar a:hover{
+            color:#DCDCDC;
+        }
+        .main{
+            height: 150vh;
+            display:flex;
+            
+    }
+    .main{background-image: url(pleatf.jpg) ;}
+    
+       
+    .box1, .box2, .box3, .box4 {background-color:rgb(56, 18, 18) ; width: 400px;  display:inline-block;
+        height: 400px; 
+        align-content: center;
+        border-color: white;
+        border-radius: 40px;
+        color: white;}
+
+
+
+        .box1{position: absolute;
+            top: 300px; left: 300px;}
+              
+        .box2{position: absolute;
+                top:300px; right:300px;}
+            
+        .box3{position: absolute;
+            top: 800px; left:300px; }
+
+        .box4{position: absolute;
+                top: 800px; right:300px; }
+
+                .image{
+                    padding-left: 0; padding-top: 0px;
+                    margin-left: 70px; margin-top: 20px; margin-bottom: -10px;
+                  padding-right: 0px; 
+                  border: grey solid 5px;}
+
+
+            .cake h3{font-size: 20px ;
+            align-content: center;
+           margin-top: 0px;
+        margin-left: 70px;
+    margin-right: 70px;}
+                
+    .cake1 h3{font-size: 20px ;
+        
+       margin-top: 0px;
+    margin-left: 180px;
+margin-right: 175px;}
+
+.cake2, .cake3 h3{font-size: 20px ;
+    align-content: center;
+   margin-top: 0px;
+margin-left: 70px;
+margin-right: 70px;}
+            
+                   
+               
+        
+        
+           
+        
+          
+           
+        
+           
+        
+                .footer{text-align: center
+                    ;
+                color:bisque;
+                background-color: black;
+              font-size: 25px;} 
+              *{margin: 0; padding: 0;}
